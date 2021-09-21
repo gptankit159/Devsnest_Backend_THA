@@ -1,0 +1,12 @@
+CREATE TABLE person(
+person_id INT NOT NULL,
+name VARCHAR(255),
+order_id INT NOT NULL
+);
+
+INSERT INTO person VALUES (1 , 'Ankit', 2558);
+INSERT INTO person VALUES (2 , 'Atul', 2559);
+INSERT INTO person VALUES (3 , 'Ajit', 2570);
+
+SELECT * FROM person;
+SELECT * FROM person WHERE person_id = 3;
